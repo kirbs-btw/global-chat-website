@@ -1,0 +1,32 @@
+:root{
+  --bgColor: #2b2d42;
+  --secColor: #8d99ae;
+  --accentColor: #d90429;
+  --hightlightColor: #ef233c;
+  --textColor: #edf2f4;
+}
+
+body{
+  margin: 0;
+  background: var(--bgColor);
+  display: flex;
+
+}
+
+.left-section{
+  width: 25vw;
+  height: 100vh;
+  border-right: solid var(--secColor) 2px;
+}
+
+form{
+  width: 100%;
+}
+
+textarea{
+  width: 80%;
+}
+
+.mid-section{
+  width: 50vw;
+}
