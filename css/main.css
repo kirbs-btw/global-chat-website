@@ -41,6 +41,13 @@ input, textarea{
   background-color: var(--textColor);
 }
 
+input:focus, textarea:focus{
+  box-sizing: border-box;
+  outline: none;
+  border: var(--hightlightColor) 1px solid;
+}
+
+
 button{
   color: var(--textColor);
   background-color: var(--accentColor);
