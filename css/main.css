@@ -1,9 +1,15 @@
 :root{
-  --bgColor: #2b2d42;
+  /* --bgColor: #2b2d42;
   --secColor: #8d99ae;
   --accentColor: #ef233c;
   --hightlightColor: #d90429;
-  --textColor: #edf2f4;
+  --textColor: #edf2f4; */
+
+  --bgColor: #001337;
+  --secColor: #4789d1;
+  --accentColor: #ef233c;
+  --hightlightColor: #4789d1;
+  --textColor: #d3e4f3;
 }
 
 body{
