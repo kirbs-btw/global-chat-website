@@ -1,0 +1,95 @@
+:root{
+  /* --bgColor: #2b2d42;
+  --secColor: #8d99ae;
+  --accentColor: #ef233c;
+  --hightlightColor: #d90429;
+  --textColor: #edf2f4; */
+
+  --bgColor: #001337;
+  --secColor: #4789d1;
+  --accentColor: #ef233c;
+  --hightlightColor: #4789d1;
+  --textColor: #d3e4f3;
+}
+
+body{
+  margin: 0;
+  background: var(--bgColor);
+  display: flex;
+
+}
+
+.left-section{
+  width: 25vw;
+  height: 100vh;
+  border-right: solid var(--secColor) 2px;
+}
+
+form{
+  margin-top: 5vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button, input, textarea{
+  box-sizing: border-box;
+  width: 80%;
+  margin: 1vh;
+  padding: 1vh;
+  font-family: Futura Bk BT;
+  border-radius: 0.5vh;
+  border: none;
+}
+
+input, textarea{
+  background-color: var(--textColor);
+}
+
+input:focus, textarea:focus{
+  box-sizing: border-box;
+  outline: none;
+  border: var(--hightlightColor) 1px solid;
+}
+
+
+button{
+  color: var(--textColor);
+  background-color: var(--accentColor);
+}
+
+button:hover{
+  background-color: var(--hightlightColor);
+}
+
+.mid-section{
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.message{
+  width: 80%;
+  margin: 2vh;
+}
+
+.content{
+  border-radius: 2vh;
+  background-color: var(--secColor);
+  padding-left: 1vh;
+  padding-right: 1vh;
+  padding-top: 0.4vh;
+  padding-bottom: 0.4vh;
+}
+
+.message > *{
+  color: var(--textColor);
+  font-family: Futura Bk BT;
+}
+
+.message > h2 {
+  font-weight: normal;
+  font-size: 1.5vh;
+}
