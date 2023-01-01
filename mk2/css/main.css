@@ -1,4 +1,4 @@
-:root{
+ :root{
   --bgColor: #ffffff;
   --accentColor: #4789d1;
   --textColor: #000000;
@@ -35,7 +35,7 @@ h1{
 
 .left-bar-section{
   width: 20vw;
-  height: 100%;
+  height: auto;
   border-right: solid 1px var(--accentColor);
 }
 
@@ -69,7 +69,7 @@ h1{
 
 }
 
-.mid-mid-section{
+#mid-mid-section{
   width: 60vw;
   height: 100%;
   display: flex;
