@@ -1,5 +1,12 @@
 var message = "";
 
+
+
+
+setTimeout(() => {
+  document.location.reload();
+}, 3000);
+
 function addMessage(){
   // get db access
   // convert data to the string
